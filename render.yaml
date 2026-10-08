@@ -1,54 +1,90 @@
 services:
+  # ==============================
+  # 1. GLUCOTWIN BACKEND
+  # ==============================
   - type: web
     name: ai-smart-hospital-backend
     runtime: python
+    plan: free
     rootDir: backend
+
     buildCommand: pip install -r requirements.txt
+
     startCommand: gunicorn --worker-class eventlet --workers 1 --bind 0.0.0.0:$PORT wsgi:app
+
     healthCheckPath: /api/health
+
     autoDeploy: true
+
     envVars:
       - key: FLASK_DEBUG
         value: "False"
+
       - key: SECRET_KEY
         generateValue: true
+
       - key: HUGGINGFACE_API_KEY
         sync: false
+
       - key: CORS_ORIGINS
         value: https://ai-smart-hospital-frontend.onrender.com
 
+
+  # ==============================
+  # 2. APPOINTMENT SERVICE
+  # ==============================
   - type: web
     name: ai-smart-hospital-appointments
     runtime: node
+    plan: free
     rootDir: appointment-service
+
     buildCommand: npm install
+
     startCommand: npm start
+
     healthCheckPath: /health
+
     autoDeploy: true
+
     envVars:
       - key: NODE_ENV
         value: production
+
       - key: MONGODB_URI
         sync: false
+
       - key: CORS_ORIGIN
         value: https://ai-smart-hospital-frontend.onrender.com
 
+
+  # ==============================
+  # 3. GLUCOTWIN FRONTEND
+  # ==============================
   - type: web
     name: ai-smart-hospital-frontend
     runtime: static
     rootDir: frontend
+
     buildCommand: npm install && npm run build
+
     staticPublishPath: build
+
     autoDeploy: true
+
     envVars:
       - key: REACT_APP_API_ORIGIN
         value: https://ai-smart-hospital-backend.onrender.com
+
       - key: REACT_APP_API_URL
         value: https://ai-smart-hospital-backend.onrender.com/api
+
       - key: REACT_APP_BOOKING_API_ORIGIN
         value: https://ai-smart-hospital-appointments.onrender.com
+
       - key: REACT_APP_BOOKING_API_URL
         value: https://ai-smart-hospital-appointments.onrender.com/api
+
     routes:
       - type: rewrite
         source: /*
