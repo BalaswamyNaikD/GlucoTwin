@@ -29,7 +29,7 @@ services:
         sync: false
 
       - key: CORS_ORIGINS
-        value: https://ai-smart-hospital-frontend.onrender.com
+        value: https://ai-smart-hospital-backend-r99b.onrender.com
 
 
   # ==============================
@@ -76,10 +76,10 @@ services:
 
     envVars:
       - key: REACT_APP_API_ORIGIN
-        value: https://ai-smart-hospital-backend.onrender.com
+        value: https://ai-smart-hospital-backend-r99b.onrender.com
 
       - key: REACT_APP_API_URL
-        value: https://ai-smart-hospital-backend.onrender.com/api
+        value: https://ai-smart-hospital-backend-r99b.onrender.com
 
       - key: REACT_APP_BOOKING_API_ORIGIN
         value: https://ai-smart-hospital-appointments.onrender.com
