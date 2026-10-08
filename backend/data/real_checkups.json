@@ -1,0 +1,132 @@
+[
+  {
+    "id": "CHK-9001",
+    "patient_id": "P-2001",
+    "doctor_id": "D-3001",
+    "doctor_name": "Dr. Anita Rao",
+    "department": "Cardiology",
+    "date": "2026-03-11",
+    "type": "Routine Follow-up",
+    "chief_complaint": "Mild fatigue and intermittent dizziness",
+    "vitals": {
+      "heart_rate": 86,
+      "blood_pressure": "144/90",
+      "spo2": 96,
+      "temperature": 98.7,
+      "respiration_rate": 18,
+      "blood_glucose": 162
+    },
+    "diagnosis": "Blood pressure and glucose uncontrolled",
+    "assessment": "Moderate risk",
+    "plan": "Adjust antihypertensive dose, reinforce diabetic diet",
+    "follow_up_in_days": 14
+  },
+  {
+    "id": "CHK-9002",
+    "patient_id": "P-2002",
+    "doctor_id": "D-3003",
+    "doctor_name": "Dr. Maria Gomez",
+    "department": "Pulmonology",
+    "date": "2026-03-14",
+    "type": "Emergency Respiratory Review",
+    "chief_complaint": "Breathlessness on exertion",
+    "vitals": {
+      "heart_rate": 104,
+      "blood_pressure": "160/98",
+      "spo2": 90,
+      "temperature": 99.6,
+      "respiration_rate": 25,
+      "blood_glucose": 127
+    },
+    "diagnosis": "COPD exacerbation",
+    "assessment": "High risk",
+    "plan": "Nebulization protocol, steroid taper, strict monitoring",
+    "follow_up_in_days": 7
+  },
+  {
+    "id": "CHK-9003",
+    "patient_id": "P-2003",
+    "doctor_id": "D-3002",
+    "doctor_name": "Dr. Daniel Kim",
+    "department": "Neurology",
+    "date": "2026-03-17",
+    "type": "Specialist Consultation",
+    "chief_complaint": "Recurrent migraine with sleep disturbance",
+    "vitals": {
+      "heart_rate": 75,
+      "blood_pressure": "116/74",
+      "spo2": 99,
+      "temperature": 98.2,
+      "respiration_rate": 16,
+      "blood_glucose": 94
+    },
+    "diagnosis": "Chronic migraine",
+    "assessment": "Low risk",
+    "plan": "Continue abortive therapy and add sleep hygiene protocol",
+    "follow_up_in_days": 30
+  },
+  {
+    "id": "CHK-9004",
+    "patient_id": "P-2001",
+    "doctor_id": "D-3001",
+    "doctor_name": "Dr. Anita Rao",
+    "department": "Cardiology",
+    "date": "2026-03-21",
+    "type": "Medication Response Check",
+    "chief_complaint": "No chest pain, improved energy",
+    "vitals": {
+      "heart_rate": 82,
+      "blood_pressure": "138/86",
+      "spo2": 97,
+      "temperature": 98.6,
+      "respiration_rate": 17,
+      "blood_glucose": 148
+    },
+    "diagnosis": "Improving BP and glucose control",
+    "assessment": "Moderate risk",
+    "plan": "Continue current regimen and monitor glucose weekly",
+    "follow_up_in_days": 21
+  },
+  {
+    "id": "CHK-9005",
+    "patient_id": "1",
+    "doctor_id": "1",
+    "doctor_name": "Dr. Sarah Johnson",
+    "department": "General Medicine",
+    "date": "2026-03-18",
+    "type": "Prototype Cohort Checkup",
+    "chief_complaint": "Knee pain and poor sleep",
+    "vitals": {
+      "heart_rate": 90,
+      "blood_pressure": "150/94",
+      "spo2": 95,
+      "temperature": 98.9,
+      "respiration_rate": 19,
+      "blood_glucose": 136
+    },
+    "diagnosis": "Pain likely osteoarthritis-related",
+    "assessment": "Moderate risk",
+    "plan": "Pain management plan and physiotherapy referral",
+    "follow_up_in_days": 10
+  },
+  {
+    "id": "CHK-9006",
+    "patient_id": "P-2001",
+    "doctor_id": "D-3001",
+    "doctor_name": "Dr. Anita Rao",
+    "department": "Cardiology",
+    "date": "2026-03-23",
+    "type": "Post-op Follow-up",
+    "chief_complaint": "",
+    "vitals": {
+      "blood_pressure": "132/84",
+      "heart_rate": 80,
+      "spo2": 98
+    },
+    "diagnosis": "Stable recovery",
+    "assessment": "Low risk",
+    "plan": "Continue medication",
+    "follow_up_in_days": 14,
+    "created_at": "2026-03-23T01:32:11.783630"
+  }
+]

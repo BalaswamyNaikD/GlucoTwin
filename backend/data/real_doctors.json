@@ -1,0 +1,290 @@
+[
+  {
+    "id": "D-3001",
+    "email": "dr.anita.rao@hospital.com",
+    "password_hash": "a505f275c3f6e88f36c10baa16aa0950a56959cc57c53d4e301bc12d09022127",
+    "name": "Dr. Anita Rao",
+    "specialization": "Cardiology",
+    "role": "doctor",
+    "license_no": "MCI-CAR-88421",
+    "phone": "+1-555-2201"
+  },
+  {
+    "id": "D-3002",
+    "email": "dr.daniel.kim@hospital.com",
+    "password_hash": "ae5b3336639d37ba8d240568dfe15bada96eab77fd739a41d4305b492456bb29",
+    "name": "Dr. Daniel Kim",
+    "specialization": "Neurology",
+    "role": "doctor",
+    "license_no": "MCI-NEU-66219",
+    "phone": "+1-555-2202"
+  },
+  {
+    "id": "D-3003",
+    "email": "dr.maria.gomez@hospital.com",
+    "password_hash": "db2c7abe47ef41a49c58475c1793605a9911ae78b94621e8a7ec5cdccd88c10f",
+    "name": "Dr. Maria Gomez",
+    "specialization": "Pulmonology",
+    "role": "doctor",
+    "license_no": "MCI-PUL-55194",
+    "phone": "+1-555-2203"
+  },
+  {
+    "id": "6",
+    "email": "n230794@rguktn.ac.in",
+    "password_hash": "abd51d45c02ebd534f16c5e2d18ac998f3d0a87108cab9c6facb68db5eb1cde5",
+    "name": "BALASWAMY NAIK",
+    "specialization": "General Medicine",
+    "role": "doctor"
+  },
+  {
+    "id": "D-111111",
+    "email": "uttara.das.1111@hospital.com",
+    "password_hash": "e5f9bc9c3be72f96703adcaf0b19c8b7ab7cad4ab89c71d228819e89f65b990d",
+    "name": "Dr. Uttara Das",
+    "specialization": "Nephrology",
+    "role": "doctor",
+    "hospital_name": "AIIMS Mangalagiri",
+    "source": "appointment-service"
+  },
+  {
+    "id": "D-111112",
+    "email": "v.suresh.1112@hospital.com",
+    "password_hash": "65aac5fcd3dd0a852ffda17c4f957bd7bcf9d941bd75d4dcc033495f18e21ff5",
+    "name": "Dr. V. Suresh",
+    "specialization": "Endocrinology",
+    "role": "doctor",
+    "hospital_name": "AIIMS Mangalagiri",
+    "source": "appointment-service"
+  },
+  {
+    "id": "D-111113",
+    "email": "rajeev.aravindakshan.1113@hospital.com",
+    "password_hash": "0b2e9c8329d986c1c9e612c41a86aa88c6e9ac1787d5d7d1122ca43be0a166b2",
+    "name": "Dr. Rajeev Aravindakshan",
+    "specialization": "General Medicine",
+    "role": "doctor",
+    "hospital_name": "AIIMS Mangalagiri",
+    "source": "appointment-service"
+  },
+  {
+    "id": "D-111114",
+    "email": "meenakshi.yeola.1114@hospital.com",
+    "password_hash": "d6df517422de90d87299abe216dd5cff942f96939730df9fdd171d6827058082",
+    "name": "Dr. Meenakshi Yeola",
+    "specialization": "Gynecology",
+    "role": "doctor",
+    "hospital_name": "AIIMS Mangalagiri",
+    "source": "appointment-service"
+  },
+  {
+    "id": "D-111115",
+    "email": "timitrov.p.1115@hospital.com",
+    "password_hash": "d650d56e3e5ef9d2ce212dc1636b9683aff4c9643519054f4c329a6364d95a68",
+    "name": "Dr. Timitrov P",
+    "specialization": "Nephrology",
+    "role": "doctor",
+    "hospital_name": "AIIMS Mangalagiri",
+    "source": "appointment-service"
+  },
+  {
+    "id": "D-222221",
+    "email": "nageswara.rao.2221@hospital.com",
+    "password_hash": "5c929962a9e882c2ec236e2dc4b64efd224a4012abc8b2192d679e8a6a3e4417",
+    "name": "Dr. Nageswara Rao",
+    "specialization": "Cardiac Surgery",
+    "role": "doctor",
+    "hospital_name": "Apollo Hospitals Visakhapatnam",
+    "source": "appointment-service"
+  },
+  {
+    "id": "D-222222",
+    "email": "p.suresh.2222@hospital.com",
+    "password_hash": "c0fdb22a4b658cf18b53431c53a0e8f22b71bfbef6a40599d6fcc5dac55f0746",
+    "name": "Dr. P. Suresh",
+    "specialization": "Neurology",
+    "role": "doctor",
+    "hospital_name": "Apollo Hospitals Visakhapatnam",
+    "source": "appointment-service"
+  },
+  {
+    "id": "D-222223",
+    "email": "sunil.kumar.2223@hospital.com",
+    "password_hash": "8944359a4e09e42c782c5060d5d3911e90062ffc029957ea83f28c5b0635dafe",
+    "name": "Dr. Sunil Kumar",
+    "specialization": "Orthopedics",
+    "role": "doctor",
+    "hospital_name": "Apollo Hospitals Visakhapatnam",
+    "source": "appointment-service"
+  },
+  {
+    "id": "D-222224",
+    "email": "anitha.rao.2224@hospital.com",
+    "password_hash": "51e899d10e814b96a6f3e366e763a52c61b4d4821d4ba38c1ca77a68616ba229",
+    "name": "Dr. Anitha Rao",
+    "specialization": "Gynecology",
+    "role": "doctor",
+    "hospital_name": "Apollo Hospitals Visakhapatnam",
+    "source": "appointment-service"
+  },
+  {
+    "id": "D-222225",
+    "email": "ramesh.babu.2225@hospital.com",
+    "password_hash": "3013482fa4edcccc382f55d3b4bc5f53c7e4178a3f9c7dbd7cf9d2f593b54b1a",
+    "name": "Dr. Ramesh Babu",
+    "specialization": "Gastroenterology",
+    "role": "doctor",
+    "hospital_name": "Apollo Hospitals Visakhapatnam",
+    "source": "appointment-service"
+  },
+  {
+    "id": "D-333331",
+    "email": "p.ramesh.3331@hospital.com",
+    "password_hash": "390b9990f1526e31bfbf0f73f1e6d877cfbdded2eb45741050a382325efe73db",
+    "name": "Dr. P. V. Ramesh",
+    "specialization": "Cardiology",
+    "role": "doctor",
+    "hospital_name": "Andhra Hospitals Vijayawada",
+    "source": "appointment-service"
+  },
+  {
+    "id": "D-333332",
+    "email": "k.kumar.3332@hospital.com",
+    "password_hash": "19e56a050bdb4cd85fcb1627e130e2a36f830e5d359e2bae2f68ed1b9dcaece6",
+    "name": "Dr. K. Siva Kumar",
+    "specialization": "General Medicine",
+    "role": "doctor",
+    "hospital_name": "Andhra Hospitals Vijayawada",
+    "source": "appointment-service"
+  },
+  {
+    "id": "D-333333",
+    "email": "lakshmi.devi.3333@hospital.com",
+    "password_hash": "9f8259c950258a0d4c1ea7b3ad780f25a2b26d1b95ebba208de7af7ea9a13d8a",
+    "name": "Dr. Lakshmi Devi",
+    "specialization": "Gynecology",
+    "role": "doctor",
+    "hospital_name": "Andhra Hospitals Vijayawada",
+    "source": "appointment-service"
+  },
+  {
+    "id": "D-333334",
+    "email": "ravi.kumar.3334@hospital.com",
+    "password_hash": "0a8edc2f2e28b8c6b3e721a6ff4f2518de4d876155c60dcc1bfaead6d97cddd7",
+    "name": "Dr. Ravi Kumar",
+    "specialization": "Orthopedics",
+    "role": "doctor",
+    "hospital_name": "Andhra Hospitals Vijayawada",
+    "source": "appointment-service"
+  },
+  {
+    "id": "D-333335",
+    "email": "pradeep.3335@hospital.com",
+    "password_hash": "11ab3e449dd01b90ec6df638e7b0a3a9120de3b5dfe62dda6cac8a546d339c8d",
+    "name": "Dr. Pradeep",
+    "specialization": "Pediatrics",
+    "role": "doctor",
+    "hospital_name": "Andhra Hospitals Vijayawada",
+    "source": "appointment-service"
+  },
+  {
+    "id": "D-444441",
+    "email": "krishna.prasad.4441@hospital.com",
+    "password_hash": "efc39eb98fd77200fa8e31953f47c299623278bd6f9366ee0fd4ae7f8ea33780",
+    "name": "Dr. Krishna Prasad",
+    "specialization": "General Surgery",
+    "role": "doctor",
+    "hospital_name": "KIMS ICON Hospital Visakhapatnam",
+    "source": "appointment-service"
+  },
+  {
+    "id": "D-444442",
+    "email": "harish.kumar.4442@hospital.com",
+    "password_hash": "1c29c5167dd8ce23d6ed9c184a74f3cd31a22be487227878459ee7399ff3f575",
+    "name": "Dr. Harish Kumar",
+    "specialization": "Neurology",
+    "role": "doctor",
+    "hospital_name": "KIMS ICON Hospital Visakhapatnam",
+    "source": "appointment-service"
+  },
+  {
+    "id": "D-444443",
+    "email": "sandeep.4443@hospital.com",
+    "password_hash": "d537b834cb66e8a70098db5648189fa76d7f72d85b5c92902b7a4c0aea7f3b6e",
+    "name": "Dr. Sandeep",
+    "specialization": "Cardiology",
+    "role": "doctor",
+    "hospital_name": "KIMS ICON Hospital Visakhapatnam",
+    "source": "appointment-service"
+  },
+  {
+    "id": "D-444444",
+    "email": "anil.kumar.4444@hospital.com",
+    "password_hash": "2f14e853c9c5789af39e5826c01bee275c170fb2bdd5de4e90a5486bb57c9d55",
+    "name": "Dr. Anil Kumar",
+    "specialization": "Orthopedics",
+    "role": "doctor",
+    "hospital_name": "KIMS ICON Hospital Visakhapatnam",
+    "source": "appointment-service"
+  },
+  {
+    "id": "D-444445",
+    "email": "kavitha.4445@hospital.com",
+    "password_hash": "4206ad5b7262a0e0db7847da9b0b138fdb6a86a6dcf02cfd3317342c1c3b58ce",
+    "name": "Dr. Kavitha",
+    "specialization": "Gynecology",
+    "role": "doctor",
+    "hospital_name": "KIMS ICON Hospital Visakhapatnam",
+    "source": "appointment-service"
+  },
+  {
+    "id": "D-555551",
+    "email": "ravi.kumar.5551@hospital.com",
+    "password_hash": "47bd7db3b8d9688b9d6cd11b3e4c677ab7d6851688feb33a3cd097022ada3fbf",
+    "name": "Dr. Ravi Kumar",
+    "specialization": "Orthopedics",
+    "role": "doctor",
+    "hospital_name": "Medicover Hospitals Visakhapatnam",
+    "source": "appointment-service"
+  },
+  {
+    "id": "D-555552",
+    "email": "lakshmi.devi.5552@hospital.com",
+    "password_hash": "fc5d4a92cb350243115374088b6ef43cf7f3a99ccf30fcaa07c93e64e2573933",
+    "name": "Dr. Lakshmi Devi",
+    "specialization": "Gynecology",
+    "role": "doctor",
+    "hospital_name": "Medicover Hospitals Visakhapatnam",
+    "source": "appointment-service"
+  },
+  {
+    "id": "D-555553",
+    "email": "srikanth.5553@hospital.com",
+    "password_hash": "fe3d152eaa674771576ede87e4a64917442bef02de3c9254f8479f5d325eb926",
+    "name": "Dr. Srikanth",
+    "specialization": "Cardiology",
+    "role": "doctor",
+    "hospital_name": "Medicover Hospitals Visakhapatnam",
+    "source": "appointment-service"
+  },
+  {
+    "id": "D-555554",
+    "email": "naveen.5554@hospital.com",
+    "password_hash": "58fee43b1054b6144028d643a814cef0971872bcaaa3f39408fba78ff546a8fd",
+    "name": "Dr. Naveen",
+    "specialization": "Neurology",
+    "role": "doctor",
+    "hospital_name": "Medicover Hospitals Visakhapatnam",
+    "source": "appointment-service"
+  },
+  {
+    "id": "D-555555",
+    "email": "priya.5555@hospital.com",
+    "password_hash": "f6b6533c547e49545c97a860a2c322a709518e745c9ea1290789f24d1755eb36",
+    "name": "Dr. Priya",
+    "specialization": "General Medicine",
+    "role": "doctor",
+    "hospital_name": "Medicover Hospitals Visakhapatnam",
+    "source": "appointment-service"
+  }
+]

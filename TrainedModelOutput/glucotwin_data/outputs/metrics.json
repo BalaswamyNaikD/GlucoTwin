@@ -1,0 +1,68 @@
+{
+  "dataset": "PhysioNet BIG IDEAs Lab Glycemic Variability and Wearable Device Data v1.1.3",
+  "prediction_target": "Future 2-hour glucose rise >= 30 mg/dL",
+  "best_model": "Random Forest",
+  "features": [
+    "sex",
+    "hba1c",
+    "glucose",
+    "glucose_mean_15m",
+    "glucose_std_15m",
+    "glucose_mean_30m",
+    "glucose_std_30m",
+    "glucose_mean_60m",
+    "glucose_std_60m",
+    "glucose_change_15m",
+    "glucose_change_30m",
+    "glucose_change_60m",
+    "glucose_slope_30m",
+    "glucose_slope_60m",
+    "hr_mean",
+    "hr_std",
+    "hr_min",
+    "hr_max",
+    "hr_mean_15m",
+    "hr_mean_30m",
+    "hr_mean_60m",
+    "hr_change_30m",
+    "ibi_mean",
+    "ibi_std",
+    "ibi_min",
+    "ibi_max",
+    "ibi_mean_15m",
+    "ibi_mean_30m",
+    "ibi_mean_60m",
+    "ibi_change_30m"
+  ],
+  "train_patients": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "validation_patients": [
+    11,
+    12,
+    13
+  ],
+  "test_patients": [
+    14,
+    15,
+    16
+  ],
+  "final_unseen_test_metrics": {
+    "accuracy": 0.8795986622073578,
+    "precision": 0.6272373540856031,
+    "recall": 0.76981852913085,
+    "f1": 0.6912521440823327,
+    "pr_auc": 0.8132868529455852,
+    "roc_auc": 0.9145669449128349
+  },
+  "clinical_note": "Research prototype, not a clinical diagnostic model."
+}

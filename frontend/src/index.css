@@ -1,0 +1,343 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #edf4f7;
+  color: #1e293b;
+}
+
+/* Claymorphism surfaces and lightweight 3D motion */
+.clay-card {
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 1.25rem;
+  background: linear-gradient(145deg, #f8fcfd, #e2edf1);
+  box-shadow: 10px 10px 22px rgba(148, 163, 184, 0.28), -10px -10px 22px rgba(255, 255, 255, 0.9);
+  transform: translateZ(0);
+  transition: transform 220ms ease, box-shadow 220ms ease;
+}
+
+.clay-card:hover {
+  transform: translateY(-4px) rotateX(1deg) rotateY(-1deg);
+  box-shadow: 14px 16px 28px rgba(148, 163, 184, 0.32), -12px -12px 24px rgba(255, 255, 255, 0.95);
+}
+
+.clay-theme .bg-white {
+  border-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 7px 8px 16px rgba(148, 163, 184, 0.2), -6px -6px 14px rgba(255, 255, 255, 0.8);
+}
+
+.clay-theme .bg-white:hover {
+  transform: translateY(-2px);
+}
+
+.clay-button {
+  border-radius: 0.9rem;
+  box-shadow: 4px 5px 10px rgba(13, 116, 144, 0.22), -3px -3px 8px rgba(255, 255, 255, 0.75);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.clay-button:hover {
+  transform: translateY(-2px);
+}
+
+.clay-button:active {
+  transform: translateY(1px);
+  box-shadow: inset 3px 3px 8px rgba(13, 116, 144, 0.18);
+}
+
+.page-3d-enter {
+  animation: page3dEnter 500ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  perspective: 1200px;
+}
+
+@keyframes page3dEnter {
+  from { opacity: 0; transform: translateY(18px) rotateX(2deg) scale(0.985); }
+  to { opacity: 1; transform: translateY(0) rotateX(0) scale(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .clay-card,
+  .clay-button,
+  .page-3d-enter {
+    animation: none;
+    transition: none;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+/* Gradient backgrounds */
+.gradient-medical {
+  background: linear-gradient(135deg, #0083c9 0%, #14b8a6 100%);
+}
+
+.gradient-medical-dark {
+  background: linear-gradient(135deg, #065986 0%, #0f766e 100%);
+}
+
+.gradient-hero {
+  background: linear-gradient(135deg, #072f4a 0%, #0b4a6f 30%, #0d9488 100%);
+}
+
+/* Glass effect */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Animated background dots */
+.bg-dots {
+  background-image: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+/* Card hover effect */
+.card-hover {
+  transition: all 0.3s ease;
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
+
+/* Pulse ring animation */
+.pulse-ring {
+  animation: pulseRing 2s infinite;
+}
+
+@keyframes pulseRing {
+  0% {
+    box-shadow: 0 0 0 0 rgba(12, 165, 235, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(12, 165, 235, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(12, 165, 235, 0);
+  }
+}
+
+/* Heartbeat animation */
+.heartbeat {
+  animation: heartbeat 1.5s ease-in-out infinite;
+}
+
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  14% { transform: scale(1.15); }
+  28% { transform: scale(1); }
+  42% { transform: scale(1.15); }
+  70% { transform: scale(1); }
+}
+
+/* Progress bar animation */
+.progress-fill {
+  transition: width 1s ease-in-out;
+}
+
+/* Stat counter animation */
+@keyframes countUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.stat-animate {
+  animation: countUp 0.8s ease-out forwards;
+}
+
+/* Fade-in animation */
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ============================================ */
+/* AI Chatbot Styles                            */
+/* ============================================ */
+
+/* Chatbot floating button pulse */
+.chatbot-pulse {
+  animation: chatbotPulse 2.5s infinite;
+}
+
+@keyframes chatbotPulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(20, 184, 166, 0.5), 0 4px 20px rgba(0, 0, 0, 0.15);
+  }
+  50% {
+    box-shadow: 0 0 0 12px rgba(20, 184, 166, 0), 0 4px 20px rgba(0, 0, 0, 0.15);
+  }
+}
+
+/* Chatbot window slide-up animation */
+.chatbot-slide-up {
+  animation: chatSlideUp 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes chatSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Chatbot scrollbar */
+.chatbot-messages::-webkit-scrollbar {
+  width: 4px;
+}
+.chatbot-messages::-webkit-scrollbar-track {
+  background: transparent;
+}
+.chatbot-messages::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 2px;
+}
+
+/* Suggestion pills horizontal scroll */
+.chatbot-suggestions {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.chatbot-suggestions::-webkit-scrollbar {
+  display: none;
+}
+
+/* ============================================ */
+/* Production-Ready UI Enhancements             */
+/* ============================================ */
+
+/* Smooth page transitions */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Better focus states for accessibility */
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+a:focus-visible {
+  outline: 2px solid #0083c9;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Active states for interactive elements */
+.card-hover:active {
+  transform: translateY(0);
+}
+
+/* Gradient text utility */
+.text-gradient {
+  background: linear-gradient(135deg, #0083c9 0%, #14b8a6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Skeleton loading */
+.skeleton {
+  background: linear-gradient(90deg, #f1f5f9 25%, #e2e8f0 50%, #f1f5f9 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Better select/input styling */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* ============================================ */
+/* Mobile Responsiveness Enhancements           */
+/* ============================================ */
+
+/* Touch-friendly tap targets on mobile */
+@media (max-width: 640px) {
+  button:not(.chatbot-suggestions button),
+  a:not(.text-xs),
+  [role="button"] {
+    min-height: 44px;
+  }
+
+  /* Navigation tab scrolling */
+  .overflow-x-auto {
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .overflow-x-auto::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Safe area for notched phones */
+@supports (padding: max(0px)) {
+  .min-h-screen {
+    min-height: calc(100vh - env(safe-area-inset-bottom, 0px));
+  }
+}
+
+/* Print styles */
+@media print {
+  nav, footer, .chatbot-pulse, button {
+    display: none !important;
+  }
+  .shadow-sm, .shadow-lg, .shadow-2xl {
+    box-shadow: none !important;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

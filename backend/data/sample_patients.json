@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "age": 67,
+    "gender": "Male",
+    "contact": "+1-555-0101",
+    "conditions": ["Hypertension", "Type 2 Diabetes"],
+    "status": "critical",
+    "risk_level": "high",
+    "last_visit": "2026-03-06",
+    "vitals": {
+      "heart_rate": 92,
+      "blood_pressure": "158/95",
+      "spo2": 94,
+      "temperature": 99.1
+    },
+    "ai_results": {
+      "pain_score": 8,
+      "voice_condition": "parkinsons",
+      "surgery_risk": "high"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "age": 45,
+    "gender": "Female",
+    "contact": "+1-555-0102",
+    "conditions": ["Asthma"],
+    "status": "monitoring",
+    "risk_level": "medium",
+    "last_visit": "2026-03-05",
+    "vitals": {
+      "heart_rate": 78,
+      "blood_pressure": "132/85",
+      "spo2": 96,
+      "temperature": 98.8
+    },
+    "ai_results": {
+      "pain_score": 3,
+      "voice_condition": "respiratory",
+      "surgery_risk": "medium"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Robert Brown",
+    "age": 72,
+    "gender": "Male",
+    "contact": "+1-555-0103",
+    "conditions": ["Coronary Artery Disease", "COPD", "Diabetes"],
+    "status": "critical",
+    "risk_level": "high",
+    "last_visit": "2026-03-07",
+    "vitals": {
+      "heart_rate": 105,
+      "blood_pressure": "165/100",
+      "spo2": 91,
+      "temperature": 100.2
+    },
+    "ai_results": {
+      "pain_score": 6,
+      "voice_condition": "respiratory",
+      "surgery_risk": "high"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Emily Davis",
+    "age": 34,
+    "gender": "Female",
+    "contact": "+1-555-0104",
+    "conditions": [],
+    "status": "active",
+    "risk_level": "low",
+    "last_visit": "2026-03-04",
+    "vitals": {
+      "heart_rate": 68,
+      "blood_pressure": "118/76",
+      "spo2": 99,
+      "temperature": 98.4
+    },
+    "ai_results": {
+      "pain_score": 0,
+      "voice_condition": "healthy",
+      "surgery_risk": "low"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Michael Wilson",
+    "age": 58,
+    "gender": "Male",
+    "contact": "+1-555-0105",
+    "conditions": ["High Cholesterol", "Obesity"],
+    "status": "monitoring",
+    "risk_level": "medium",
+    "last_visit": "2026-03-03",
+    "vitals": {
+      "heart_rate": 82,
+      "blood_pressure": "142/88",
+      "spo2": 97,
+      "temperature": 98.6
+    },
+    "ai_results": {
+      "pain_score": 2,
+      "voice_condition": "healthy",
+      "surgery_risk": "medium"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Sarah Martinez",
+    "age": 29,
+    "gender": "Female",
+    "contact": "+1-555-0106",
+    "conditions": ["Depression"],
+    "status": "monitoring",
+    "risk_level": "low",
+    "last_visit": "2026-03-06",
+    "vitals": {
+      "heart_rate": 72,
+      "blood_pressure": "115/72",
+      "spo2": 98,
+      "temperature": 98.2
+    },
+    "ai_results": {
+      "pain_score": 1,
+      "voice_condition": "depression",
+      "surgery_risk": "low"
+    }
+  },
+  {
+    "id": 7,
+    "name": "David Anderson",
+    "age": 61,
+    "gender": "Male",
+    "contact": "+1-555-0107",
+    "conditions": ["Hypertension", "Sleep Apnea"],
+    "status": "active",
+    "risk_level": "medium",
+    "last_visit": "2026-03-02",
+    "vitals": {
+      "heart_rate": 88,
+      "blood_pressure": "148/92",
+      "spo2": 95,
+      "temperature": 98.7
+    },
+    "ai_results": {
+      "pain_score": 4,
+      "voice_condition": "respiratory",
+      "surgery_risk": "medium"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Lisa Chen",
+    "age": 41,
+    "gender": "Female",
+    "contact": "+1-555-0108",
+    "conditions": ["Thyroid Disorder"],
+    "status": "active",
+    "risk_level": "low",
+    "last_visit": "2026-03-01",
+    "vitals": {
+      "heart_rate": 74,
+      "blood_pressure": "122/78",
+      "spo2": 98,
+      "temperature": 98.5
+    },
+    "ai_results": {
+      "pain_score": 1,
+      "voice_condition": "healthy",
+      "surgery_risk": "low"
+    }
+  }
+]

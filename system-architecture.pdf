@@ -1,0 +1,253 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Length 3042 >>
+stream
+0.08 0.23 0.33 rg
+55 748 485 2 re f
+0.08 0.23 0.33 rg
+BT /F2 22 Tf 55 720 Td (Gluco System Architecture) Tj ET
+0.25 0.35 0.40 rg
+BT /F1 10 Tf 55 700 Td (Predictive Digital Twin for patient monitoring and future glucose risk) Tj ET
+0.93 0.97 0.98 rg
+55 650 485 55 re f
+0.08 0.23 0.33 RG
+1 w
+55 650 485 55 re S
+0.08 0.23 0.33 rg
+BT /F2 11 Tf 67 685 Td (User / Healthcare Team) Tj ET
+0.25 0.35 0.40 rg
+BT /F1 8.5 Tf 67 669 Td (Browser access to patient monitoring and GlucoTwin prediction) Tj ET
+0.93 0.97 0.98 rg
+55 545 230 70 re f
+0.08 0.23 0.33 RG
+1 w
+55 545 230 70 re S
+0.08 0.23 0.33 rg
+BT /F2 11 Tf 67 595 Td (React Frontend) Tj ET
+0.25 0.35 0.40 rg
+BT /F1 8.5 Tf 67 579 Td (React Router | Tailwind CSS | Chart.js | Axios) Tj ET
+0.93 0.97 0.98 rg
+315 545 225 70 re f
+0.08 0.23 0.33 RG
+1 w
+315 545 225 70 re S
+0.08 0.23 0.33 rg
+BT /F2 11 Tf 327 595 Td (Nginx Static Hosting) Tj ET
+0.25 0.35 0.40 rg
+BT /F1 8.5 Tf 327 579 Td (Production frontend container and SPA route fallback) Tj ET
+0.93 0.97 0.98 rg
+55 410 230 75 re f
+0.08 0.23 0.33 RG
+1 w
+55 410 230 75 re S
+0.08 0.23 0.33 rg
+BT /F2 11 Tf 67 465 Td (Flask REST API) Tj ET
+0.25 0.35 0.40 rg
+BT /F1 8.5 Tf 67 449 Td (Authentication, patient monitoring, GlucoTwin and metadata routes) Tj ET
+0.93 0.97 0.98 rg
+315 410 225 75 re f
+0.08 0.23 0.33 RG
+1 w
+315 410 225 75 re S
+0.08 0.23 0.33 rg
+BT /F2 11 Tf 327 465 Td (Appointment Service) Tj ET
+0.25 0.35 0.40 rg
+BT /F1 8.5 Tf 327 449 Td (Node.js / Express booking API with MongoDB or local fallback) Tj ET
+0.93 0.97 0.98 rg
+55 270 230 75 re f
+0.08 0.23 0.33 RG
+1 w
+55 270 230 75 re S
+0.08 0.23 0.33 rg
+BT /F2 11 Tf 67 325 Td (GlucoTwin Service) Tj ET
+0.25 0.35 0.40 rg
+BT /F1 8.5 Tf 67 309 Td (Replay state, feature validation and prediction orchestration) Tj ET
+0.93 0.97 0.98 rg
+315 270 225 75 re f
+0.08 0.23 0.33 RG
+1 w
+315 270 225 75 re S
+0.08 0.23 0.33 rg
+BT /F2 11 Tf 327 325 Td (Data and Model Layer) Tj ET
+0.25 0.35 0.40 rg
+BT /F1 8.5 Tf 327 309 Td (CSV replay dataset | joblib model artifact | metrics metadata) Tj ET
+0.93 0.97 0.98 rg
+55 125 485 70 re f
+0.08 0.23 0.33 RG
+1 w
+55 125 485 70 re S
+0.08 0.23 0.33 rg
+BT /F2 11 Tf 67 175 Td (Deployment Layer) Tj ET
+0.25 0.35 0.40 rg
+BT /F1 8.5 Tf 67 159 Td (Render Blueprint or Docker Compose | separate frontend, backend and appointment services) Tj ET
+0.05 0.55 0.62 RG
+1.5 w
+297 677 m 297 615 l S
+293 622 m 297 615 l 301 622 l
+0.05 0.55 0.62 RG
+1.5 w
+170 545 m 170 485 l S
+166 492 m 170 485 l 174 492 l
+0.05 0.55 0.62 RG
+1.5 w
+400 545 m 400 485 l S
+396 492 m 400 485 l 404 492 l
+0.05 0.55 0.62 RG
+1.5 w
+170 410 m 170 345 l S
+166 352 m 170 345 l 174 352 l
+0.05 0.55 0.62 RG
+1.5 w
+400 410 m 400 345 l S
+396 352 m 400 345 l 404 352 l
+0.05 0.55 0.62 RG
+1.5 w
+285 307 m 315 307 l S
+311 314 m 315 307 l 319 314 l
+0.05 0.55 0.62 RG
+1.5 w
+170 270 m 170 195 l S
+166 202 m 170 195 l 174 202 l
+0.05 0.55 0.62 RG
+1.5 w
+400 270 m 400 195 l S
+396 202 m 400 195 l 404 202 l
+0.35 0.40 0.42 rg
+BT /F1 8 Tf 55 35 Td (Gluco | BLACKBOX | Rajiv Gandhi University of Knowledge Technologies, Nuzvid) Tj ET
+endstream
+endobj
+4 0 obj
+<< /Length 2755 >>
+stream
+0.08 0.23 0.33 rg
+55 748 485 2 re f
+0.08 0.23 0.33 rg
+BT /F2 22 Tf 55 720 Td (GlucoTwin Prediction Flow) Tj ET
+0.25 0.35 0.40 rg
+BT /F1 10 Tf 55 700 Td (Current state is separated from future 2-hour risk) Tj ET
+0.93 0.97 0.98 rg
+55 665 485 52 re f
+0.08 0.23 0.33 RG
+1 w
+55 665 485 52 re S
+0.08 0.23 0.33 rg
+BT /F2 11 Tf 67 697 Td (1. Historical Profile) Tj ET
+0.25 0.35 0.40 rg
+BT /F1 8.5 Tf 67 681 Td (Patient ID, sex and HbA1c are loaded from the replay dataset) Tj ET
+0.93 0.97 0.98 rg
+55 575 485 52 re f
+0.08 0.23 0.33 RG
+1 w
+55 575 485 52 re S
+0.08 0.23 0.33 rg
+BT /F2 11 Tf 67 607 Td (2. Simulated Dynamic Observation) Tj ET
+0.25 0.35 0.40 rg
+BT /F1 8.5 Tf 67 591 Td (Glucose, heart rate and IBI advance through the patient time series) Tj ET
+0.93 0.97 0.98 rg
+55 485 485 52 re f
+0.08 0.23 0.33 RG
+1 w
+55 485 485 52 re S
+0.08 0.23 0.33 rg
+BT /F2 11 Tf 67 517 Td (3. Temporal Features) Tj ET
+0.25 0.35 0.40 rg
+BT /F1 8.5 Tf 67 501 Td (15 / 30 / 60 minute glucose change, slope and variability are calculated) Tj ET
+0.93 0.97 0.98 rg
+55 395 485 52 re f
+0.08 0.23 0.33 RG
+1 w
+55 395 485 52 re S
+0.08 0.23 0.33 rg
+BT /F2 11 Tf 67 427 Td (4. Existing Model Inference) Tj ET
+0.25 0.35 0.40 rg
+BT /F1 8.5 Tf 67 411 Td (Saved scikit-learn Random Forest pipeline produces predict_proba output) Tj ET
+0.93 0.97 0.98 rg
+55 305 485 52 re f
+0.08 0.23 0.33 RG
+1 w
+55 305 485 52 re S
+0.08 0.23 0.33 rg
+BT /F2 11 Tf 67 337 Td (5. Future 2-Hour Risk) Tj ET
+0.25 0.35 0.40 rg
+BT /F1 8.5 Tf 67 321 Td (Risk of glucose rise >= 30 mg/dL within the next 2 hours) Tj ET
+0.93 0.97 0.98 rg
+55 215 485 52 re f
+0.08 0.23 0.33 RG
+1 w
+55 215 485 52 re S
+0.08 0.23 0.33 rg
+BT /F2 11 Tf 67 247 Td (6. Explainable UI) Tj ET
+0.25 0.35 0.40 rg
+BT /F1 8.5 Tf 67 231 Td (Current state, trends, risk level and why risk is changing are displayed) Tj ET
+0.93 0.97 0.98 rg
+55 95 485 70 re f
+0.08 0.23 0.33 RG
+1 w
+55 95 485 70 re S
+0.08 0.23 0.33 rg
+BT /F2 11 Tf 67 145 Td (Data and Safety Boundary) Tj ET
+0.25 0.35 0.40 rg
+BT /F1 8.5 Tf 67 129 Td (The stream is simulated from open-source observations. The prototype does not claim real sensors, clinical validation or replacement of professional care.) Tj ET
+0.05 0.55 0.62 RG
+1.5 w
+297 665 m 297 627 l S
+293 634 m 297 627 l 301 634 l
+0.05 0.55 0.62 RG
+1.5 w
+297 575 m 297 537 l S
+293 544 m 297 537 l 301 544 l
+0.05 0.55 0.62 RG
+1.5 w
+297 485 m 297 447 l S
+293 454 m 297 447 l 301 454 l
+0.05 0.55 0.62 RG
+1.5 w
+297 395 m 297 357 l S
+293 364 m 297 357 l 301 364 l
+0.05 0.55 0.62 RG
+1.5 w
+297 305 m 297 267 l S
+293 274 m 297 267 l 301 274 l
+0.05 0.55 0.62 RG
+1.5 w
+297 215 m 297 165 l S
+293 172 m 297 165 l 301 172 l
+0.35 0.40 0.42 rg
+BT /F1 8 Tf 55 35 Td (Gluco | BLACKBOX | Rajiv Gandhi University of Knowledge Technologies, Nuzvid) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 6 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 4 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [5 0 R 6 0 R] /Count 2 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000000160 00000 n 
+0000003254 00000 n 
+0000006061 00000 n 
+0000006197 00000 n 
+0000006333 00000 n 
+0000006396 00000 n 
+trailer
+<< /Size 9 /Root 8 0 R >>
+startxref
+6445
+%%EOF

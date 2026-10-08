@@ -1,0 +1,48 @@
+[
+  {
+    "id": "REV-1774898192.065878",
+    "doctor_id": "6",
+    "doctor_name": "BALASWAMY NAIK",
+    "patient_id": "P-1000",
+    "patient_name": "John Doe",
+    "rating": 5.0,
+    "title": "General Medicine Specialist",
+    "comment": "Doctor providing comprehensive care for diagnosis, treatment, and prevention of a wide range of adult health conditions",
+    "categories": {
+      "communication": 5,
+      "cleanliness": 5,
+      "wait_time": 5,
+      "punctuality": 5
+    },
+    "visit_type": "checkup",
+    "visit_date": "",
+    "would_recommend": true,
+    "verified_patient": true,
+    "helpful_count": 0,
+    "created_at": "2026-03-31T00:46:32.065912",
+    "status": "published"
+  },
+  {
+    "id": "REV-1774898258.191399",
+    "doctor_id": "D-222224",
+    "doctor_name": "Dr. Anitha Rao",
+    "patient_id": "P-1000",
+    "patient_name": "John Doe",
+    "rating": 5.0,
+    "title": "Good",
+    "comment": "Very good",
+    "categories": {
+      "communication": 4,
+      "cleanliness": 5,
+      "wait_time": 3,
+      "punctuality": 4
+    },
+    "visit_type": "consultation",
+    "visit_date": "",
+    "would_recommend": true,
+    "verified_patient": true,
+    "helpful_count": 0,
+    "created_at": "2026-03-31T00:47:38.191444",
+    "status": "published"
+  }
+]

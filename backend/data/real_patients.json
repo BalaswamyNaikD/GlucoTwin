@@ -1,0 +1,710 @@
+[
+  {
+    "id": "P-2001",
+    "email": "emma.wilson@patient.com",
+    "password_hash": "d4587ea9ead060c13fd994f21ecfa7926272a78854a2c20136b10a3c9e53e71e",
+    "name": "Emma Wilson",
+    "role": "patient",
+    "age": 52,
+    "gender": "Female",
+    "phone": "+1-555-3101",
+    "blood_group": "A+",
+    "conditions": [
+      "Type 2 Diabetes",
+      "Hypertension"
+    ],
+    "status": "monitoring",
+    "risk_level": "medium",
+    "last_visit": "2026-03-23",
+    "vitals": {
+      "heart_rate": 80,
+      "blood_pressure": "132/84",
+      "spo2": 98,
+      "temperature": 98.9,
+      "respiration_rate": 18,
+      "blood_glucose": 154
+    },
+    "ai_results": {
+      "pain_score": 3,
+      "voice_condition": "healthy",
+      "surgery_risk": "medium",
+      "health_score": 72
+    },
+    "appointments": [
+      {
+        "id": "APT-3201",
+        "date": "2026-03-25",
+        "doctor": "Dr. Anita Rao",
+        "type": "Cardio-Diabetes Review",
+        "status": "upcoming"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Metformin 500mg",
+        "dosage": "Twice daily",
+        "status": "active"
+      },
+      {
+        "name": "Telmisartan 40mg",
+        "dosage": "Once daily",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "P-2002",
+    "email": "oliver.brown@patient.com",
+    "password_hash": "d4587ea9ead060c13fd994f21ecfa7926272a78854a2c20136b10a3c9e53e71e",
+    "name": "Oliver Brown",
+    "role": "patient",
+    "age": 67,
+    "gender": "Male",
+    "phone": "+1-555-3102",
+    "blood_group": "B+",
+    "conditions": [
+      "COPD",
+      "Coronary Artery Disease"
+    ],
+    "status": "critical",
+    "risk_level": "high",
+    "last_visit": "2026-03-22",
+    "vitals": {
+      "heart_rate": 101,
+      "blood_pressure": "158/96",
+      "spo2": 91,
+      "temperature": 99.4,
+      "respiration_rate": 24,
+      "blood_glucose": 124
+    },
+    "ai_results": {
+      "pain_score": 6,
+      "voice_condition": "respiratory",
+      "surgery_risk": "high",
+      "health_score": 49
+    },
+    "appointments": [
+      {
+        "id": "APT-3202",
+        "date": "2026-03-24",
+        "doctor": "Dr. Maria Gomez",
+        "type": "Pulmonary Function Follow-up",
+        "status": "upcoming"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Tiotropium Inhaler",
+        "dosage": "Once daily",
+        "status": "active"
+      },
+      {
+        "name": "Atorvastatin 20mg",
+        "dosage": "Night",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "P-2003",
+    "email": "sophia.lee@patient.com",
+    "password_hash": "d4587ea9ead060c13fd994f21ecfa7926272a78854a2c20136b10a3c9e53e71e",
+    "name": "Sophia Lee",
+    "role": "patient",
+    "age": 38,
+    "gender": "Female",
+    "phone": "+1-555-3103",
+    "blood_group": "O-",
+    "conditions": [
+      "Migraine",
+      "Anxiety"
+    ],
+    "status": "active",
+    "risk_level": "low",
+    "last_visit": "2026-03-20",
+    "vitals": {
+      "heart_rate": 74,
+      "blood_pressure": "118/76",
+      "spo2": 99,
+      "temperature": 98.3,
+      "respiration_rate": 16,
+      "blood_glucose": 96
+    },
+    "ai_results": {
+      "pain_score": 2,
+      "voice_condition": "depression",
+      "surgery_risk": "low",
+      "health_score": 88
+    },
+    "appointments": [
+      {
+        "id": "APT-3203",
+        "date": "2026-03-29",
+        "doctor": "Dr. Daniel Kim",
+        "type": "Neurology Consultation",
+        "status": "upcoming"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Sumatriptan 50mg",
+        "dosage": "As needed",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": "P-2004",
+    "email": "balaswamy@gmail.com",
+    "password_hash": "17756315ebd47b7110359fc7b168179bf6f2df3646fcc888bc8aa05c78b38ac1",
+    "name": "Sai Babu",
+    "role": "patient",
+    "age": 20,
+    "gender": "Male",
+    "phone": "7670989762",
+    "blood_group": "A+",
+    "conditions": [],
+    "status": "active",
+    "risk_level": "low",
+    "vitals": {
+      "heart_rate": 72,
+      "blood_pressure": "120/80",
+      "spo2": 98,
+      "temperature": 98.6,
+      "respiration_rate": 16,
+      "blood_glucose": 95
+    },
+    "smartwatch_history": [
+      {
+        "label": "Feb 22",
+        "heart_rate": 74,
+        "spo2": 98,
+        "systolic_bp": 122,
+        "diastolic_bp": 81,
+        "blood_glucose": 99
+      },
+      {
+        "label": "Feb 23",
+        "heart_rate": 71,
+        "spo2": 97,
+        "systolic_bp": 117,
+        "diastolic_bp": 78,
+        "blood_glucose": 93
+      },
+      {
+        "label": "Feb 24",
+        "heart_rate": 75,
+        "spo2": 98,
+        "systolic_bp": 121,
+        "diastolic_bp": 80,
+        "blood_glucose": 98
+      },
+      {
+        "label": "Feb 25",
+        "heart_rate": 70,
+        "spo2": 99,
+        "systolic_bp": 120,
+        "diastolic_bp": 81,
+        "blood_glucose": 94
+      },
+      {
+        "label": "Feb 26",
+        "heart_rate": 73,
+        "spo2": 98,
+        "systolic_bp": 118,
+        "diastolic_bp": 79,
+        "blood_glucose": 97
+      },
+      {
+        "label": "Feb 27",
+        "heart_rate": 72,
+        "spo2": 97,
+        "systolic_bp": 122,
+        "diastolic_bp": 81,
+        "blood_glucose": 92
+      },
+      {
+        "label": "Feb 28",
+        "heart_rate": 71,
+        "spo2": 98,
+        "systolic_bp": 119,
+        "diastolic_bp": 80,
+        "blood_glucose": 96
+      },
+      {
+        "label": "Mar 01",
+        "heart_rate": 74,
+        "spo2": 98,
+        "systolic_bp": 122,
+        "diastolic_bp": 81,
+        "blood_glucose": 99
+      },
+      {
+        "label": "Mar 02",
+        "heart_rate": 71,
+        "spo2": 97,
+        "systolic_bp": 117,
+        "diastolic_bp": 78,
+        "blood_glucose": 93
+      },
+      {
+        "label": "Mar 03",
+        "heart_rate": 75,
+        "spo2": 98,
+        "systolic_bp": 121,
+        "diastolic_bp": 80,
+        "blood_glucose": 98
+      },
+      {
+        "label": "Mar 04",
+        "heart_rate": 70,
+        "spo2": 99,
+        "systolic_bp": 120,
+        "diastolic_bp": 81,
+        "blood_glucose": 94
+      },
+      {
+        "label": "Mar 05",
+        "heart_rate": 73,
+        "spo2": 98,
+        "systolic_bp": 118,
+        "diastolic_bp": 79,
+        "blood_glucose": 97
+      },
+      {
+        "label": "Mar 06",
+        "heart_rate": 72,
+        "spo2": 97,
+        "systolic_bp": 122,
+        "diastolic_bp": 81,
+        "blood_glucose": 92
+      },
+      {
+        "label": "Mar 07",
+        "heart_rate": 71,
+        "spo2": 98,
+        "systolic_bp": 119,
+        "diastolic_bp": 80,
+        "blood_glucose": 96
+      },
+      {
+        "label": "Mar 08",
+        "heart_rate": 74,
+        "spo2": 98,
+        "systolic_bp": 122,
+        "diastolic_bp": 81,
+        "blood_glucose": 99
+      },
+      {
+        "label": "Mar 09",
+        "heart_rate": 71,
+        "spo2": 97,
+        "systolic_bp": 117,
+        "diastolic_bp": 78,
+        "blood_glucose": 93
+      },
+      {
+        "label": "Mar 10",
+        "heart_rate": 75,
+        "spo2": 98,
+        "systolic_bp": 121,
+        "diastolic_bp": 80,
+        "blood_glucose": 98
+      },
+      {
+        "label": "Mar 11",
+        "heart_rate": 70,
+        "spo2": 99,
+        "systolic_bp": 120,
+        "diastolic_bp": 81,
+        "blood_glucose": 94
+      },
+      {
+        "label": "Mar 12",
+        "heart_rate": 73,
+        "spo2": 98,
+        "systolic_bp": 118,
+        "diastolic_bp": 79,
+        "blood_glucose": 97
+      },
+      {
+        "label": "Mar 13",
+        "heart_rate": 72,
+        "spo2": 97,
+        "systolic_bp": 122,
+        "diastolic_bp": 81,
+        "blood_glucose": 92
+      },
+      {
+        "label": "Mar 14",
+        "heart_rate": 71,
+        "spo2": 98,
+        "systolic_bp": 119,
+        "diastolic_bp": 80,
+        "blood_glucose": 96
+      },
+      {
+        "label": "Mar 15",
+        "heart_rate": 74,
+        "spo2": 98,
+        "systolic_bp": 122,
+        "diastolic_bp": 81,
+        "blood_glucose": 99
+      },
+      {
+        "label": "Mar 16",
+        "heart_rate": 71,
+        "spo2": 97,
+        "systolic_bp": 117,
+        "diastolic_bp": 78,
+        "blood_glucose": 93
+      },
+      {
+        "label": "Mar 17",
+        "heart_rate": 75,
+        "spo2": 98,
+        "systolic_bp": 121,
+        "diastolic_bp": 80,
+        "blood_glucose": 98
+      },
+      {
+        "label": "Mar 18",
+        "heart_rate": 70,
+        "spo2": 99,
+        "systolic_bp": 120,
+        "diastolic_bp": 81,
+        "blood_glucose": 94
+      },
+      {
+        "label": "Mar 19",
+        "heart_rate": 73,
+        "spo2": 98,
+        "systolic_bp": 118,
+        "diastolic_bp": 79,
+        "blood_glucose": 97
+      },
+      {
+        "label": "Mar 20",
+        "heart_rate": 72,
+        "spo2": 97,
+        "systolic_bp": 122,
+        "diastolic_bp": 81,
+        "blood_glucose": 92
+      },
+      {
+        "label": "Mar 21",
+        "heart_rate": 71,
+        "spo2": 98,
+        "systolic_bp": 119,
+        "diastolic_bp": 80,
+        "blood_glucose": 96
+      },
+      {
+        "label": "Mar 22",
+        "heart_rate": 74,
+        "spo2": 98,
+        "systolic_bp": 122,
+        "diastolic_bp": 81,
+        "blood_glucose": 99
+      },
+      {
+        "label": "Mar 23",
+        "heart_rate": 71,
+        "spo2": 97,
+        "systolic_bp": 117,
+        "diastolic_bp": 78,
+        "blood_glucose": 93
+      }
+    ],
+    "ai_results": {
+      "pain_score": 0,
+      "voice_condition": "healthy",
+      "surgery_risk": "low",
+      "health_score": 90
+    },
+    "appointments": [
+      {
+        "id": "APT-3204",
+        "date": "2026-03-24",
+        "doctor": "BALASWAMY NAIK",
+        "type": "Cardiology",
+        "status": "upcoming"
+      }
+    ],
+    "medications": [],
+    "source": "real"
+  },
+  {
+    "id": "P-2005",
+    "email": "n230794@rguktn.ac.in",
+    "password_hash": "c775e7b757ede630cd0aa1113bd102661ab38829ca52a6422ab782862f268646",
+    "name": "Balaswamy",
+    "role": "patient",
+    "age": 19,
+    "gender": "Male",
+    "phone": "7670989764",
+    "blood_group": "O+",
+    "conditions": [],
+    "status": "active",
+    "risk_level": "low",
+    "vitals": {
+      "heart_rate": 72,
+      "blood_pressure": "120/80",
+      "spo2": 98,
+      "temperature": 98.6,
+      "respiration_rate": 16,
+      "blood_glucose": 95
+    },
+    "smartwatch_history": [
+      {
+        "label": "Feb 27",
+        "heart_rate": 74,
+        "spo2": 98,
+        "systolic_bp": 122,
+        "diastolic_bp": 81,
+        "blood_glucose": 99
+      },
+      {
+        "label": "Feb 28",
+        "heart_rate": 71,
+        "spo2": 97,
+        "systolic_bp": 117,
+        "diastolic_bp": 78,
+        "blood_glucose": 93
+      },
+      {
+        "label": "Mar 01",
+        "heart_rate": 75,
+        "spo2": 98,
+        "systolic_bp": 121,
+        "diastolic_bp": 80,
+        "blood_glucose": 98
+      },
+      {
+        "label": "Mar 02",
+        "heart_rate": 70,
+        "spo2": 99,
+        "systolic_bp": 120,
+        "diastolic_bp": 81,
+        "blood_glucose": 94
+      },
+      {
+        "label": "Mar 03",
+        "heart_rate": 73,
+        "spo2": 98,
+        "systolic_bp": 118,
+        "diastolic_bp": 79,
+        "blood_glucose": 97
+      },
+      {
+        "label": "Mar 04",
+        "heart_rate": 72,
+        "spo2": 97,
+        "systolic_bp": 122,
+        "diastolic_bp": 81,
+        "blood_glucose": 92
+      },
+      {
+        "label": "Mar 05",
+        "heart_rate": 71,
+        "spo2": 98,
+        "systolic_bp": 119,
+        "diastolic_bp": 80,
+        "blood_glucose": 96
+      },
+      {
+        "label": "Mar 06",
+        "heart_rate": 74,
+        "spo2": 98,
+        "systolic_bp": 122,
+        "diastolic_bp": 81,
+        "blood_glucose": 99
+      },
+      {
+        "label": "Mar 07",
+        "heart_rate": 71,
+        "spo2": 97,
+        "systolic_bp": 117,
+        "diastolic_bp": 78,
+        "blood_glucose": 93
+      },
+      {
+        "label": "Mar 08",
+        "heart_rate": 75,
+        "spo2": 98,
+        "systolic_bp": 121,
+        "diastolic_bp": 80,
+        "blood_glucose": 98
+      },
+      {
+        "label": "Mar 09",
+        "heart_rate": 70,
+        "spo2": 99,
+        "systolic_bp": 120,
+        "diastolic_bp": 81,
+        "blood_glucose": 94
+      },
+      {
+        "label": "Mar 10",
+        "heart_rate": 73,
+        "spo2": 98,
+        "systolic_bp": 118,
+        "diastolic_bp": 79,
+        "blood_glucose": 97
+      },
+      {
+        "label": "Mar 11",
+        "heart_rate": 72,
+        "spo2": 97,
+        "systolic_bp": 122,
+        "diastolic_bp": 81,
+        "blood_glucose": 92
+      },
+      {
+        "label": "Mar 12",
+        "heart_rate": 71,
+        "spo2": 98,
+        "systolic_bp": 119,
+        "diastolic_bp": 80,
+        "blood_glucose": 96
+      },
+      {
+        "label": "Mar 13",
+        "heart_rate": 74,
+        "spo2": 98,
+        "systolic_bp": 122,
+        "diastolic_bp": 81,
+        "blood_glucose": 99
+      },
+      {
+        "label": "Mar 14",
+        "heart_rate": 71,
+        "spo2": 97,
+        "systolic_bp": 117,
+        "diastolic_bp": 78,
+        "blood_glucose": 93
+      },
+      {
+        "label": "Mar 15",
+        "heart_rate": 75,
+        "spo2": 98,
+        "systolic_bp": 121,
+        "diastolic_bp": 80,
+        "blood_glucose": 98
+      },
+      {
+        "label": "Mar 16",
+        "heart_rate": 70,
+        "spo2": 99,
+        "systolic_bp": 120,
+        "diastolic_bp": 81,
+        "blood_glucose": 94
+      },
+      {
+        "label": "Mar 17",
+        "heart_rate": 73,
+        "spo2": 98,
+        "systolic_bp": 118,
+        "diastolic_bp": 79,
+        "blood_glucose": 97
+      },
+      {
+        "label": "Mar 18",
+        "heart_rate": 72,
+        "spo2": 97,
+        "systolic_bp": 122,
+        "diastolic_bp": 81,
+        "blood_glucose": 92
+      },
+      {
+        "label": "Mar 19",
+        "heart_rate": 71,
+        "spo2": 98,
+        "systolic_bp": 119,
+        "diastolic_bp": 80,
+        "blood_glucose": 96
+      },
+      {
+        "label": "Mar 20",
+        "heart_rate": 74,
+        "spo2": 98,
+        "systolic_bp": 122,
+        "diastolic_bp": 81,
+        "blood_glucose": 99
+      },
+      {
+        "label": "Mar 21",
+        "heart_rate": 71,
+        "spo2": 97,
+        "systolic_bp": 117,
+        "diastolic_bp": 78,
+        "blood_glucose": 93
+      },
+      {
+        "label": "Mar 22",
+        "heart_rate": 75,
+        "spo2": 98,
+        "systolic_bp": 121,
+        "diastolic_bp": 80,
+        "blood_glucose": 98
+      },
+      {
+        "label": "Mar 23",
+        "heart_rate": 70,
+        "spo2": 99,
+        "systolic_bp": 120,
+        "diastolic_bp": 81,
+        "blood_glucose": 94
+      },
+      {
+        "label": "Mar 24",
+        "heart_rate": 73,
+        "spo2": 98,
+        "systolic_bp": 118,
+        "diastolic_bp": 79,
+        "blood_glucose": 97
+      },
+      {
+        "label": "Mar 25",
+        "heart_rate": 72,
+        "spo2": 97,
+        "systolic_bp": 122,
+        "diastolic_bp": 81,
+        "blood_glucose": 92
+      },
+      {
+        "label": "Mar 26",
+        "heart_rate": 71,
+        "spo2": 98,
+        "systolic_bp": 119,
+        "diastolic_bp": 80,
+        "blood_glucose": 96
+      },
+      {
+        "label": "Mar 27",
+        "heart_rate": 74,
+        "spo2": 98,
+        "systolic_bp": 122,
+        "diastolic_bp": 81,
+        "blood_glucose": 99
+      },
+      {
+        "label": "Mar 28",
+        "heart_rate": 71,
+        "spo2": 97,
+        "systolic_bp": 117,
+        "diastolic_bp": 78,
+        "blood_glucose": 93
+      }
+    ],
+    "ai_results": {
+      "pain_score": 0,
+      "voice_condition": "healthy",
+      "surgery_risk": "low",
+      "health_score": 90
+    },
+    "appointments": [],
+    "medications": [],
+    "source": "real"
+  }
+]

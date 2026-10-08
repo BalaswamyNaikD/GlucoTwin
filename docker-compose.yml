@@ -1,0 +1,37 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    environment:
+      FLASK_DEBUG: "False"
+      PORT: "5000"
+      SECRET_KEY: ${SECRET_KEY:-change-this-local-secret}
+      HUGGINGFACE_API_KEY: ${HUGGINGFACE_API_KEY:-}
+      CORS_ORIGINS: http://localhost:3000,http://127.0.0.1:3000
+    ports:
+      - "5000:5000"
+
+  appointments:
+    build:
+      context: ./appointment-service
+    environment:
+      NODE_ENV: production
+      PORT: "5001"
+      MONGODB_URI: ${MONGODB_URI:-mongodb://127.0.0.1:27017/smart_hospital}
+      CORS_ORIGIN: http://localhost:3000
+    ports:
+      - "5001:5001"
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        REACT_APP_API_ORIGIN: http://localhost:5000
+        REACT_APP_API_URL: http://localhost:5000/api
+        REACT_APP_BOOKING_API_ORIGIN: http://localhost:5001
+        REACT_APP_BOOKING_API_URL: http://localhost:5001/api
+    depends_on:
+      - backend
+      - appointments
+    ports:
+      - "3000:80"
