@@ -1,9 +1,11 @@
-# Gluco
-
+# GlucoTwin
+**ProtoType URL:** https://ai-smart-hospital-frontend.onrender.com/
 ## 1. Team Details
 
 - **Team:** BLACKBOX
 - **Member:** BALASWAMY NAIK DEVASOTHU
+- **Contact:**91+ 7670989763
+              balaswamy.devs@gmail.com
 
 ## 2. College Information
 
@@ -11,7 +13,7 @@
 
 ## 3. Project Title
 
-- **Gluco**
+- **GlucoTwin**
 
 ## 4. Problem Statement
 
@@ -72,7 +74,7 @@ The data stream is simulated from an open-source dataset replay. The application
 
 ## 11. Project Presentation
 
-- **Public presentation PDF covering project details and outcomes: (./GlucoTwin_Presentation.pdf)**
+- **Public presentation PDF covering project details and outcomes:** https://github.com/BalaswamyNaikD/GlucoTwin/blob/fb96db5bcf9bd4a4829079094ff39ff00f62a74e/GlucoTwin_Presentation.pdf
 
 ## Render Deployment
 
