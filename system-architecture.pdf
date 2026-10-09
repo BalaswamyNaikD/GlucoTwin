@@ -1,253 +1,93 @@
 %PDF-1.4
-%âãÏÓ
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+<<
+/F1 2 0 R /F2 3 0 R
+>>
 endobj
 2 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
 endobj
 3 0 obj
-<< /Length 3042 >>
-stream
-0.08 0.23 0.33 rg
-55 748 485 2 re f
-0.08 0.23 0.33 rg
-BT /F2 22 Tf 55 720 Td (Gluco System Architecture) Tj ET
-0.25 0.35 0.40 rg
-BT /F1 10 Tf 55 700 Td (Predictive Digital Twin for patient monitoring and future glucose risk) Tj ET
-0.93 0.97 0.98 rg
-55 650 485 55 re f
-0.08 0.23 0.33 RG
-1 w
-55 650 485 55 re S
-0.08 0.23 0.33 rg
-BT /F2 11 Tf 67 685 Td (User / Healthcare Team) Tj ET
-0.25 0.35 0.40 rg
-BT /F1 8.5 Tf 67 669 Td (Browser access to patient monitoring and GlucoTwin prediction) Tj ET
-0.93 0.97 0.98 rg
-55 545 230 70 re f
-0.08 0.23 0.33 RG
-1 w
-55 545 230 70 re S
-0.08 0.23 0.33 rg
-BT /F2 11 Tf 67 595 Td (React Frontend) Tj ET
-0.25 0.35 0.40 rg
-BT /F1 8.5 Tf 67 579 Td (React Router | Tailwind CSS | Chart.js | Axios) Tj ET
-0.93 0.97 0.98 rg
-315 545 225 70 re f
-0.08 0.23 0.33 RG
-1 w
-315 545 225 70 re S
-0.08 0.23 0.33 rg
-BT /F2 11 Tf 327 595 Td (Nginx Static Hosting) Tj ET
-0.25 0.35 0.40 rg
-BT /F1 8.5 Tf 327 579 Td (Production frontend container and SPA route fallback) Tj ET
-0.93 0.97 0.98 rg
-55 410 230 75 re f
-0.08 0.23 0.33 RG
-1 w
-55 410 230 75 re S
-0.08 0.23 0.33 rg
-BT /F2 11 Tf 67 465 Td (Flask REST API) Tj ET
-0.25 0.35 0.40 rg
-BT /F1 8.5 Tf 67 449 Td (Authentication, patient monitoring, GlucoTwin and metadata routes) Tj ET
-0.93 0.97 0.98 rg
-315 410 225 75 re f
-0.08 0.23 0.33 RG
-1 w
-315 410 225 75 re S
-0.08 0.23 0.33 rg
-BT /F2 11 Tf 327 465 Td (Appointment Service) Tj ET
-0.25 0.35 0.40 rg
-BT /F1 8.5 Tf 327 449 Td (Node.js / Express booking API with MongoDB or local fallback) Tj ET
-0.93 0.97 0.98 rg
-55 270 230 75 re f
-0.08 0.23 0.33 RG
-1 w
-55 270 230 75 re S
-0.08 0.23 0.33 rg
-BT /F2 11 Tf 67 325 Td (GlucoTwin Service) Tj ET
-0.25 0.35 0.40 rg
-BT /F1 8.5 Tf 67 309 Td (Replay state, feature validation and prediction orchestration) Tj ET
-0.93 0.97 0.98 rg
-315 270 225 75 re f
-0.08 0.23 0.33 RG
-1 w
-315 270 225 75 re S
-0.08 0.23 0.33 rg
-BT /F2 11 Tf 327 325 Td (Data and Model Layer) Tj ET
-0.25 0.35 0.40 rg
-BT /F1 8.5 Tf 327 309 Td (CSV replay dataset | joblib model artifact | metrics metadata) Tj ET
-0.93 0.97 0.98 rg
-55 125 485 70 re f
-0.08 0.23 0.33 RG
-1 w
-55 125 485 70 re S
-0.08 0.23 0.33 rg
-BT /F2 11 Tf 67 175 Td (Deployment Layer) Tj ET
-0.25 0.35 0.40 rg
-BT /F1 8.5 Tf 67 159 Td (Render Blueprint or Docker Compose | separate frontend, backend and appointment services) Tj ET
-0.05 0.55 0.62 RG
-1.5 w
-297 677 m 297 615 l S
-293 622 m 297 615 l 301 622 l
-0.05 0.55 0.62 RG
-1.5 w
-170 545 m 170 485 l S
-166 492 m 170 485 l 174 492 l
-0.05 0.55 0.62 RG
-1.5 w
-400 545 m 400 485 l S
-396 492 m 400 485 l 404 492 l
-0.05 0.55 0.62 RG
-1.5 w
-170 410 m 170 345 l S
-166 352 m 170 345 l 174 352 l
-0.05 0.55 0.62 RG
-1.5 w
-400 410 m 400 345 l S
-396 352 m 400 345 l 404 352 l
-0.05 0.55 0.62 RG
-1.5 w
-285 307 m 315 307 l S
-311 314 m 315 307 l 319 314 l
-0.05 0.55 0.62 RG
-1.5 w
-170 270 m 170 195 l S
-166 202 m 170 195 l 174 202 l
-0.05 0.55 0.62 RG
-1.5 w
-400 270 m 400 195 l S
-396 202 m 400 195 l 404 202 l
-0.35 0.40 0.42 rg
-BT /F1 8 Tf 55 35 Td (Gluco | BLACKBOX | Rajiv Gandhi University of Knowledge Technologies, Nuzvid) Tj ET
-endstream
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
 endobj
 4 0 obj
-<< /Length 2755 >>
-stream
-0.08 0.23 0.33 rg
-55 748 485 2 re f
-0.08 0.23 0.33 rg
-BT /F2 22 Tf 55 720 Td (GlucoTwin Prediction Flow) Tj ET
-0.25 0.35 0.40 rg
-BT /F1 10 Tf 55 700 Td (Current state is separated from future 2-hour risk) Tj ET
-0.93 0.97 0.98 rg
-55 665 485 52 re f
-0.08 0.23 0.33 RG
-1 w
-55 665 485 52 re S
-0.08 0.23 0.33 rg
-BT /F2 11 Tf 67 697 Td (1. Historical Profile) Tj ET
-0.25 0.35 0.40 rg
-BT /F1 8.5 Tf 67 681 Td (Patient ID, sex and HbA1c are loaded from the replay dataset) Tj ET
-0.93 0.97 0.98 rg
-55 575 485 52 re f
-0.08 0.23 0.33 RG
-1 w
-55 575 485 52 re S
-0.08 0.23 0.33 rg
-BT /F2 11 Tf 67 607 Td (2. Simulated Dynamic Observation) Tj ET
-0.25 0.35 0.40 rg
-BT /F1 8.5 Tf 67 591 Td (Glucose, heart rate and IBI advance through the patient time series) Tj ET
-0.93 0.97 0.98 rg
-55 485 485 52 re f
-0.08 0.23 0.33 RG
-1 w
-55 485 485 52 re S
-0.08 0.23 0.33 rg
-BT /F2 11 Tf 67 517 Td (3. Temporal Features) Tj ET
-0.25 0.35 0.40 rg
-BT /F1 8.5 Tf 67 501 Td (15 / 30 / 60 minute glucose change, slope and variability are calculated) Tj ET
-0.93 0.97 0.98 rg
-55 395 485 52 re f
-0.08 0.23 0.33 RG
-1 w
-55 395 485 52 re S
-0.08 0.23 0.33 rg
-BT /F2 11 Tf 67 427 Td (4. Existing Model Inference) Tj ET
-0.25 0.35 0.40 rg
-BT /F1 8.5 Tf 67 411 Td (Saved scikit-learn Random Forest pipeline produces predict_proba output) Tj ET
-0.93 0.97 0.98 rg
-55 305 485 52 re f
-0.08 0.23 0.33 RG
-1 w
-55 305 485 52 re S
-0.08 0.23 0.33 rg
-BT /F2 11 Tf 67 337 Td (5. Future 2-Hour Risk) Tj ET
-0.25 0.35 0.40 rg
-BT /F1 8.5 Tf 67 321 Td (Risk of glucose rise >= 30 mg/dL within the next 2 hours) Tj ET
-0.93 0.97 0.98 rg
-55 215 485 52 re f
-0.08 0.23 0.33 RG
-1 w
-55 215 485 52 re S
-0.08 0.23 0.33 rg
-BT /F2 11 Tf 67 247 Td (6. Explainable UI) Tj ET
-0.25 0.35 0.40 rg
-BT /F1 8.5 Tf 67 231 Td (Current state, trends, risk level and why risk is changing are displayed) Tj ET
-0.93 0.97 0.98 rg
-55 95 485 70 re f
-0.08 0.23 0.33 RG
-1 w
-55 95 485 70 re S
-0.08 0.23 0.33 rg
-BT /F2 11 Tf 67 145 Td (Data and Safety Boundary) Tj ET
-0.25 0.35 0.40 rg
-BT /F1 8.5 Tf 67 129 Td (The stream is simulated from open-source observations. The prototype does not claim real sensors, clinical validation or replacement of professional care.) Tj ET
-0.05 0.55 0.62 RG
-1.5 w
-297 665 m 297 627 l S
-293 634 m 297 627 l 301 634 l
-0.05 0.55 0.62 RG
-1.5 w
-297 575 m 297 537 l S
-293 544 m 297 537 l 301 544 l
-0.05 0.55 0.62 RG
-1.5 w
-297 485 m 297 447 l S
-293 454 m 297 447 l 301 454 l
-0.05 0.55 0.62 RG
-1.5 w
-297 395 m 297 357 l S
-293 364 m 297 357 l 301 364 l
-0.05 0.55 0.62 RG
-1.5 w
-297 305 m 297 267 l S
-293 274 m 297 267 l 301 274 l
-0.05 0.55 0.62 RG
-1.5 w
-297 215 m 297 165 l S
-293 172 m 297 165 l 301 172 l
-0.35 0.40 0.42 rg
-BT /F1 8 Tf 55 35 Td (Gluco | BLACKBOX | Rajiv Gandhi University of Knowledge Technologies, Nuzvid) Tj ET
-endstream
+<<
+/Contents 9 0 R /MediaBox [ 0 0 841.8898 595.2756 ] /Parent 8 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
 endobj
 5 0 obj
-<< /Type /Page /Parent 5 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+<<
+/Contents 10 0 R /MediaBox [ 0 0 841.8898 595.2756 ] /Parent 8 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
 endobj
 6 0 obj
-<< /Type /Page /Parent 6 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 4 0 R >>
+<<
+/PageMode /UseNone /Pages 8 0 R /Type /Catalog
+>>
 endobj
 7 0 obj
-<< /Type /Pages /Kids [5 0 R 6 0 R] /Count 2 >>
+<<
+/Author (Team BLACKBOX) /CreationDate (D:20261009154140+05'00') /Creator (anonymous) /Keywords () /ModDate (D:20261009154140+05'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (unspecified) /Title (GlucoTwin - System Architecture and Prediction Workflow) /Trapped /False
+>>
 endobj
 8 0 obj
-<< /Type /Catalog /Pages 7 0 R >>
+<<
+/Count 2 /Kids [ 4 0 R 5 0 R ] /Type /Pages
+>>
+endobj
+9 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 2010
+>>
+stream
+Gau0DD0+Gi%0#[%JWF"g<CKfMV2oodbH>-;Mr!4'.PbikQ,T7=-dAeYIK2p\XOF9:Wa>*[J0kR.%j$7aJ/J:hs"AQrB1mL>8q<#->_>SA"IAN7j`6)Spt'Cq%55s=&S5+:J^/B`k;n=J_"u_8MKP6,"<s7HZ-"4fBfs]Sg;kX7^`W)WR73N.)<Z]t6H>a_fU]M,_(W"XI;*-[d.LuUVeruHH;jP7f),lu)d#;!m:[p\+p7Ho8lRE33Z:AH"[@a!jO]C5^t<46<`RgSG6V*uVWs*9H%00YE*Mt"BmSFbVWr#&2&ds4(!,QB]5M+F/p?B&>BM#rD-KpS?&rbf&"em(;a4R$`dlsmR[Ka7P/OSobqmUBN=s5`bu7[+\\q?66H+d_k"s?*ap"nZ.<.EZ>7ikZ&]^&oTMWtA5DV-)ca]$I5q?G':clLs*d=;BhVW@^SXho*,`TiN.#()Zl!l\N4CBcYM%?.ki<?kK7GVn*!]+V+MHpe@0@*'IN\m@ZT/tY8I+I"u3kQk6drj$lVpOPL>;H+?/Sl(eRYuHKJV\?;AuQ]hrs5UP)Bhga`DV[nl2j[p,%;NJ+&c'8M#en/f?n?!Ef]:c28S5!M)77a;$\:59aCR&4,kC0!t=F-G1]7_G^hlPh^8+W5ZX;*ilVsH&$K0koVPc>6'jtGKs;ALN\M+jJHhD=*k7J2,\Q/[mX)nM1G"Ha7S$U"^0%%S^+J&&]'3$RrD_Hf,(-X$H%:`[%cEIoU_4uo8@-/51K,0!-frC=`P=6A).9c0&5JHR5b+c\X&Do&/Nq6-NS-1*jh126:BGX$Ua+=V2c]GU(-OFTKK&UEH2KD0foua>ZF-_rP82Y4Z_57AW#B,.C5^86BIP*4?.AOi;1>$qeoDgY>*BZIRT*auS>uaoja?K1XebHn<\c\0[?;EVRRX/3#mXXtVLs<NS]8#`"18f&.Q.%^rLJnuYs[GL?!nniHF[.pl/cj4dTZL#3o0O7XP$TV&CMq5WSo3j!@QB@VCtt=?T@8IA@f[KGj-n(kt3E;GmqDcL@4C^GLCJT-;_6r0]pSP#5peg8dZ;LFc,Z^GJH:3*AO*`dJH'IdlmK(\$re\qAk-l0^W.GRYckbUqh>h1/thl^roO+Ts9qk>PjPo2eF)c=8`n`\';p!S:PON[Ui>9"N$(5ki3olKGU'Bj7n94_M`g*j&->7>cQgJ/ecjWBk5)EE$.8W3nU@dBhWb,^k<fS%_Ke(n*a5/Vi17n7q\PjO#WPaLK8k.(D"l$(GR;A2?gbu^g0f=/$8qIo>=iC;(oDUle>mcRiCn;5u-cgOH61`Q0:?MSs=]elje%`*Hu\DPUf9[FEWH8J[C:"m"]CSd_ehC_k!Xj\?g6'HG:ifqgeVKPuJ+gmmtJ;hA$QuSXT$hs7=4%pkm0R5_Zj,4^Ql\lucT>A)/NuGaYV`FPlshjh@k>DCk\6]o7em./,!@nAh]eM`<-Z+s+n?cpP>[qRG;gmE.SOb]ja1N$jTEXUd"T:32ATI>]2lNk8b<nML0YQSG1=i%HeJp45m50tuQD)CECApMX)W+$6Otjqc]o:Gr!cQ61,7h!T(MI2YE<b\_q'2<.F!"K6XqQ&\bF#^T5..aJoZ4j.>dd>I.O!!XVk..NE2bbop,#8-/Z,)tB8h0ZVpkai6A@3.:pa$:#l]Tb,t$Io3>&o2`H`?go+cKM=M%log\l()6sFCrm5?9`HWNO,89$q5^(DOa,hOte_f"d)YaK8q/ibY8chk6t"Y1P6H2-87POAm/gq!dkr/;A/+#BgH:*I[i41gdI9EcENOd3THVI,81n8,;ZGXI*iN4)We\eP&k6^E#p[<W=mhb`S>`=LNB`lC,20dM*":a#u"M&P=QcCE%j3_9[4NAFI9khR1Z=3n-IJfBE%:&B[3G7Ic@siZK:SpoeW,O4$A(?p;^Mg?55EL*PBC\]<1!Y;r*kMX83(*CO"UdqqA,0oRX1#2R^&`b&f$#IfK.J'n4U<Cs=bn,X.^,."Z"aqZdUO$tf~>endstream
+endobj
+10 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 2392
+>>
+stream
+Gatn(Df=Yo'#ri+;p<Fs@\`%HqYT7^BY)H+d-\6^]"l!0'Uag.b#0A(aen9W^EI0N6ef.`]0_$96VG<?c0$JF$%efl[(iX^^uZKk?6Ptpoc7E[`N]=Ihlg,26pLYKWjT=u0h-FpjH('I,dSbM?GkSXX%4L]/n9]JOUG/SUf*?:Z$F].Q9ZNiAsl0b+Z$OdTnl*%&rS3rH3aIphs@C]rD^8qF0@NF2:c%@=&&G]:K[W$lYk#-e5M<n"'$8YWfWUZcDY3Z_bcIXhjJ#G?1m"`*m1b=m0F5NG?6^A`X_Y(LSh0-ns2UfZ0h6JgmbkZ%=LD;c:]T?9B-GT,"_B*\\D+i9Cm2qSn@\1eZKH>Lm=FOfr[#tpopHRjsr#]hj,]_5oR`%E';NO[Ba3fgp8nt,E*9B5#IUd&t,?RTUP/5_hLJmTb=VK6PM`?'F=`Cn:`\tGc9";RR[pJ\6<`NQiD:*ckOGuG*:'JAA]+V67?$9,"cE9g!dK*`<*&5As(5Hb&3<h5AmXebiWLnT6Z[@3=XA!)(V"6G(oh-h$p5:pH5Xj>*2:EPR`R1d2H5b1hBOQ;XO\d8k$JVr_d^6D#,DLc_O?1ELBW$TcV4VYH+rPa]SoQIDlO.X`+(("_g1fl<5K=D^%eiDt:m(@d/7:q4P1^GAgm9T:p'[nDX(FXIpi/1gRZ>)n7]8*4M_%9gX5^9f\Ml*dM%:+ct8sAE9@ZI:`Zt)KEI_&XA;S+t4%3M+i1nLpI*>dsT3kAF?,@O,:.YBcJARAj4L]dQVI$RP4PRR@pj9#qfa^E,A)/.e?>1H,p*sR=HYY5gBK@R=Jq;J=HqeR=G;O>Tjaojr.ML2hGGUY@W;867.Lu-4%m"EJ=dO1I674\BGU"<.<$oPqsbsJ2+mt?jb-r'3O\;aTPTt-HJWDTF/\l:\AV_PTrcih/cfgl3`!O*H_<`Rb.)HGYgE<_u&[UqZaL?lpp9=#)e<'bA/LbO(DPC$[UQOqtmK!`;K0Il^]AooX,_UV1dI['IG2lE(u9(.QsU2CKlN+(fCF]:]`X'OAS=KPYaq:$'cK/_Mut:PQ[6?;rT7bg8so[7L@\sJJ'`6"<LJC3@4/f.A6f8W;)/].V=oa!Mb=__4Vo_PY`MLj9[+XVh@0"$-=V>3@30V;aN32W+@EO(a[aZpX&T?Dn+6W\F2fL/O9T_aFFT0"XWA6.UZ>eHQpA?.Bg0kHV`!*RdOVD`FITQj_`i'j0RQDd-dd"LpeiU0Yi;l:@R213$-!U4G[S=+Hld9/nB3GD+=.QnT^.0J-T3[GbDt+&K]^ED,3TN#<sLU&$F/jhPH]n!"Z5o#nM*:5#K2di.BS?JSsUpOSKJ0ABs]&!epr0"#7SSDQ^;G%l-;fK1m.(>eojeD_RHQ$kFo`ho(/k(`q[*nK9WBL[RIVaeE\AiQ#i2)n9eSFKap4^+^jDasceZI&'K[:t<>4j$c=^L_ala#BZKGl3L4.b-)n/;n(I#pG_tA%s26.L0pq=[Y/N_54"V!Bm;(%TfRm\3e`6G:EdR.(4cT(!@1pk+Q;%5oP(NN&gE!^$6c*<+JCb?<!WeQ"qle\6?,Pp&/$1;`*B'1j@0]>pskJA&/+ON&s>UKSq2RUOH9k`(d^QZ5XKE\Lbk,(*"mij!l#Wda<6Tr$OL@*\D!FC"3?B2`aubBEn?VmK4&pXq4YF\DOuT4s3'aZG5#o6+5s1?[rlJI(9RQuJct-5/UOAaWggllKEnZ:nGr/Z*jE(aGS%HKGfG_2mRACA,;F9b0m"Z1`/R1Q7UkRNiYaZf\JpC\NPs2'`6aL^@lG%2)i7qe7UkRNiisGZgl96.DBs6]&t'\qTc8h9DBs6]'$n(MaPBDJDBs\=)i<@09Gcdk-GcRq>OT=30?aLY:?6Wr^,OWZ0[d5a%?)!;L,[]ALIOMVNl;t`T!lsD;a!gp%'uW^-]1V](iM/h:`r]nUdUujQ\"+\QP?=$Uc9dKKhQcpc01#X4L%G76]`?Q3ClrAJb3V^Nhkic!@'aWWj[NK5(Zjp5D9K;c3A>kPOr*'POr+B/s@5A0]lMb0B;X]$^K<$jKDEMoDQBRa3oEjT?95ia2#l9hepU9q$Yg([%bk?QQtg7h/1;IqrS`//X8E(@Ku"j=\G5ZVsVGg09f'rk7+gBJf@uR(Y6NNU.q[orI]!CY.*7H<8Hu.2Q[qqIY+\Em%6uWecT^1[LLgH;42.7b-\@[@FPf"XLE?l4Efa@*LeK^gPo%Wmb%FnTR!D%FAm*ook#+$SY#8RVL2qs^!jka""5*L@.u^.mJlAW4/q4nrs-^%>Cl8k>^lVE],rYTqCc.2PeYb0n=HZ5f'l=:5O*\O-[^68s3PpbNS`H+=R0_VG"m0fCQe:=p4#3U0?d.VVt;$)o!q8.W5@hL&`mLU~>endstream
 endobj
 xref
-0 9
+0 11
 0000000000 65535 f 
-0000000015 00000 n 
-0000000085 00000 n 
-0000000160 00000 n 
-0000003254 00000 n 
-0000006061 00000 n 
-0000006197 00000 n 
-0000006333 00000 n 
-0000006396 00000 n 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000524 00000 n 
+0000000728 00000 n 
+0000000796 00000 n 
+0000001108 00000 n 
+0000001173 00000 n 
+0000003274 00000 n 
 trailer
-<< /Size 9 /Root 8 0 R >>
+<<
+/ID 
+[<2fa7bd115b89e984bc63851002be9d5d><2fa7bd115b89e984bc63851002be9d5d>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 7 0 R
+/Root 6 0 R
+/Size 11
+>>
 startxref
-6445
+5758
 %%EOF
