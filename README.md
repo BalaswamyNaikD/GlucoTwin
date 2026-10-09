@@ -72,7 +72,7 @@ The data stream is simulated from an open-source dataset replay. The application
 
 ## 11. Project Presentation
 
-- **Public presentation PDF covering project details and outcomes: https://github.com/BalaswamyNaikD/GlucoTwin/blob/1ef811f23a9daa22cc70ee0dffee00de9fb475ea/GlucoTwin_Presentation.pdf
+- **Public presentation PDF covering project details and outcomes: (./GlucoTwin_Presentation.pdf)**
 
 ## Render Deployment
 
