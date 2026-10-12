@@ -60,7 +60,7 @@ The data stream is simulated from an open-source dataset replay. The application
 
 ## 8. Demo Video
 
-- **Public demo video link:** To be added later.
+- **Public demo video link:** https://youtu.be/LFnjJ6qzDwY?feature=shared
 
 ## 9. Open-Source License Details
 
