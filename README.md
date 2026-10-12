@@ -4,8 +4,8 @@
 
 - **Team:** BLACKBOX
 - **Member:** BALASWAMY NAIK DEVASOTHU
-- **Contact:** 91+ 7670989763
-              balaswamy.devs@gmail.com
+- **Contact:**Phone no: +91 7670989763
+              email id: balaswamy.devs@gmail.com
 
 ## 2. College Information
 
